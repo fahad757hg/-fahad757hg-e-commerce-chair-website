@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Chair Details</title>
+  <style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(240deg,#2E3047 0% ,#707793 50% , aliceblue  100%);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  
+header{
+            height: 80px;
+            width: 100%;
+            background: linear-gradient(240deg,#2E3047 0% ,#707793 50% , aliceblue  100%);
+            position: relative;
+            z-index: 3;
+            top: 0;
+        }
+        header img{
+        height: 240px;
+        width: auto;
+        margin-top: -80px;
+        }
+        header ul{
+            line-height: 80px;
+            list-style: none;
+            display: flex;
+            float: right;
+            justify-content: right;
+            padding-right: 40px;
+            text-shadow: 2px 2px 5px  white;
+            transition: all 2s linear;
+            text-transform: uppercase;
+        }
+        header ul li{
+            list-style: none;
+            margin-left: 30px;
+            cursor: pointer;
+        }
+        header li::after{
+            content: '';
+            width: 0;
+            height: 3px;
+            background-color: coral;
+            margin: auto;
+            display: block;
+        }
+        header li:hover::after{
+            width: 100%;
+            transition: 0.3s linear;
+            /* margin-top: 0px; */
+        }
+        header li a:hover{
+            color: coral;
+        }
+        header ul li a{
+            color: white;
+            text-decoration: none;
+        }
+  .chair-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .chair-image {
+    flex: 1;
+  }
+  
+  .chair-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .customer-reviews {
+    margin-top: 30px;
+  }
+  
+  .review {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  footer {
+    background-color: hwb(44 4% 12%);
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+    <header> <img src="logo 3.png" alt="">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about us.html">About us</a></li>
+            <li><a href="contact.html">Contact & Location</a></li>
+        </ul>
+    </header>
+    
+    
+    <div class="container">
+    <div class="chair-details">
+      <div class="chair-image">
+        <div class="slider-container">
+          <div class="slide" id="slide1">
+              <img src="addision fancy chair.webp" alt="Image 1">
+          </div>
+          <div class="slide" id="slide2">
+              <img src="circle 4.jpeg" alt="Image 2">
+          </div>
+          <div class="slide" id="slide3">
+              <img src="mason bedroom chair.webp" alt="Image 3">
+          </div>
+          <div class="slide" id="slide1">
+            <img src="andrea fancy chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="adam heavy ceo chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="thomas fancy chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="charlie tription dining chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="Aria gaming chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="harry gaming chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="markhour X army folding chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="jack bedroom fancy chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="cup black polish stool.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="matto doctor bar tool.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="trevor m computer chair.webp" alt="Image 1">
+        </div>
+        <div class="slide" id="slide1">
+            <img src="david mesh visitor chair.webp" alt="Image 1">
+        </div>
+      </div>
+       
+      </div>
+      <script src="cc.js"></script>
+    
+    
+
+      <div class="chair-info">
+        <h2>All Richfield Chair </h2>   
+        <p>Discover the comfort and style of our classic lounge chair. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul>
+          <li>Comfortable Design</li>
+          <li>Durable Materials</li>
+          <li>Available in Various Colors</li>
+        </ul>
+        <p>Price: $199.99</p>
+      </div>
+    </div>
+    
+
+    <div class="customer-reviews">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <img src="addision fancy chair.webp" alt="Customer Avatar 1">
+        <p>"This chair exceeded my expectations. It's both stylish and comfortable. Highly recommended!"</p>
+        <p class="reviewer">- John Doe</p>
+      </div>
+
+      <div class="review">
+        <img src="circle 4.jpeg" alt="Customer Avatar 2">
+        <p>"The quality of the materials used in this chair is outstanding. I'm very satisfied with my purchase."</p>
+        <p class="reviewer">- Jane Smith</p>
+      </div>
+
+     
+    </div>
+
+    <div class="container">
+        <h2>About Us</h2>
+        <img src="light1.jpg" alt="">
+        <p>Welcome to Chair Details, your one-stop destination for all things chairs! Whether you're an avid chair enthusiast or simply looking for the perfect seating solution, we've got you covered.</p>
+        <p>At Chair Details, we believe that a chair is more than just a piece of furniture; it's an essential element of comfort and style. Our mission is to provide you with detailed information about a wide range of chairs, from ergonomic office chairs to stylish accent chairs.</p>
+        <p>Our team of chair experts is passionate about helping you make informed decisions when it comes to choosing the right chair for your needs. We provide comprehensive details, including materials, designs, and features, to ensure that you find the perfect chair that complements your lifestyle.</p>
+        <p>Explore our website to discover in-depth chair reviews, buying guides, and tips on chair maintenance. Whether you're furnishing your home, office, or any other space, Chair Details is here to guide you through the world of chairs.</p>
+        <p>Thank you for choosing Chair Details. Sit back, relax, and enjoy exploring the fascinating world of chairs with us!</p>
+    </div>
+
+    
+
+    <footer>
+      &copy; <b>2024 Your Website. All rights reserved.</b>
+    </footer>
+    </div>
+  
+</body>
+</html>
